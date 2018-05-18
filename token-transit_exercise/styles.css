@@ -1,0 +1,199 @@
+#wrapper {
+  max-width: 1020px;
+  margin: 0px 130px 0px 130px;
+  background: white;
+}
+
+body {
+  background: gray;
+  margin: 0;
+}
+
+div ul {
+  padding: 1px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8.5px;
+  list-style: none;
+}
+
+div li {
+  display: inline-block;
+  margin: 3px;
+  list-style-type: none;
+}
+
+.lgphotocontainer {
+  background-image: url("images/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 1020px 510px;
+  height: 475px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.topleftlogocontainer {
+  width: 49%;
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  color: rgb(48, 152, 207);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.toprightnavcontainer {
+  width: 49%;
+  display: inline-block;
+}
+
+div.Bus-Passes {
+  font-family: 'DroidSerif', serif;
+  position: relative;
+  top: 140px;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+}
+
+div.Token-Transit_Center {
+  position: relative;
+  top: 153px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 43px;
+  font-weight: bold;
+  color: white;
+}
+
+.bluebutton {
+  position: relative;
+  top: 172px;
+  height: 42px;
+  width: 155px;
+  background-color: rgb(48, 154, 209);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.buttontext {
+  position: relative;
+  top: 14px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.small-text-below-button {
+  position: relative;
+  top: 178px;
+  color: rgb(111, 113, 115);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7px;
+  font-weight: bold;
+}
+
+.gray-area-middle-tophalf {
+  display: inline-block;
+  margin: 0px 130px 0px 130px;
+  height: 50px;
+  width: 1020px;
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  vertical-align: middle;
+  background-color: rgb(222, 222, 222);
+}
+
+.gray-area-middle-bottomhalf {
+  display: inline-block;
+  margin: 0px 130px 0px 130px;
+  height: 135px;
+  width: 1020px;
+  font-family: 'DroidSerif', serif;
+  font-size: 15px;
+  color: rgb(111, 113, 115);
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(222, 222, 222);
+}
+
+#wrapper2 {
+  max-width: 1020px;
+  margin: 0px 130px 0px 130px;
+  background: white;
+}
+
+.white-area-header {
+  display: inline-block;
+  margin: 10px 0px 0px 0px;
+  height: 70px;
+  width: 1020px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  vertical-align: middle;
+  background-color: rgb(255, 255, 255);
+}
+
+.purchase {
+  width: 27%;
+  display: inline-block;
+  position: relative;
+  text-align: right;
+}
+
+.activate {
+  width: 44%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+
+.ride {
+  width: 27%;
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+
+.left-bumper {
+  display: inline-block;
+  position: relative;
+  width: 14%;
+  background-color: blue;
+}
+
+.purchase-text {
+  width: 23%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  background-color: green;
+}
+
+.activate-text {
+  width: 23%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  background-color: orange;
+}
+
+.ride-text {
+  width: 23%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  background-color: green;
+}
+
+.right-bumper {
+  display: inline-block;
+  position: relative;
+  width: 14%;
+  background-color: blue;
+}
