@@ -1,5 +1,5 @@
 #wrapper {
-  max-width: 1020px;
+  width: 1020px;
   margin: 0px 130px 0px 130px;
   background: white;
 }
@@ -9,17 +9,17 @@ body {
   margin: 0;
 }
 
-div ul {
+div.toprightnavcontainer ul {
   padding: 1px;
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 8.5px;
+  font-size: 10px;
   list-style: none;
 }
 
 div li {
   display: inline-block;
-  margin: 3px;
+  margin: 5px 25px 0px 0px;
   list-style-type: none;
 }
 
@@ -36,26 +36,30 @@ div li {
   width: 49%;
   display: inline-block;
   position: relative;
-  top: 5px;
+  top: 1px;
   color: rgb(48, 152, 207);
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   font-weight: normal;
+  padding: 2px;
 }
 
 .toprightnavcontainer {
   width: 49%;
   display: inline-block;
+  margin: 8px 0px 0px 0px;
 }
 
 div.Bus-Passes {
-  font-family: 'DroidSerif', serif;
   position: relative;
   top: 140px;
-  font-style: italic;
-  font-size: 25px;
-  font-weight: lighter;
   color: white;
+  font-family: "Droid Serif";
+  font-size: 22px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: 100;
+  line-height: 20px;
 }
 
 div.Token-Transit_Center {
@@ -89,7 +93,7 @@ div.Token-Transit_Center {
 .small-text-below-button {
   position: relative;
   top: 178px;
-  color: rgb(111, 113, 115);
+  color: rgb(115, 115, 115);
   font-family: 'Montserrat', sans-serif;
   font-size: 7px;
   font-weight: bold;
@@ -101,10 +105,11 @@ div.Token-Transit_Center {
   height: 50px;
   width: 1020px;
   padding-top: 20px;
-  text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  text-align: center;
   vertical-align: middle;
+  color: rgb(58, 58, 58);
   background-color: rgb(222, 222, 222);
 }
 
@@ -113,16 +118,17 @@ div.Token-Transit_Center {
   margin: 0px 130px 0px 130px;
   height: 135px;
   width: 1020px;
-  font-family: 'DroidSerif', serif;
-  font-size: 15px;
-  color: rgb(111, 113, 115);
+  font-family: 'Roboto Slab', serif;
+  font-size: 12px;
+  color: rgb(150, 150, 150);
   text-align: center;
   vertical-align: middle;
   background-color: rgb(222, 222, 222);
 }
 
 #wrapper2 {
-  max-width: 1020px;
+  width: 1020px;
+  height: 600px;
   margin: 0px 130px 0px 130px;
   background: white;
 }
@@ -136,64 +142,260 @@ div.Token-Transit_Center {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   vertical-align: middle;
+  color: rgb(58, 58, 58);
   background-color: rgb(255, 255, 255);
 }
 
 .purchase {
-  width: 27%;
+  width: 283px;
   display: inline-block;
   position: relative;
   text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+  font-size: 12px;
 }
 
 .activate {
-  width: 44%;
+  width: 430px;
   display: inline-block;
   position: relative;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+  font-size: 12px;
 }
 
 .ride {
-  width: 27%;
+  width: 273px;
   display: inline-block;
   position: relative;
   text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+  font-size: 12px;
+  margin: 0px 0px 0px 20px;
 }
 
 .left-bumper {
   display: inline-block;
   position: relative;
-  width: 14%;
+  width: 115px;
   background-color: blue;
+  margin: 10px 0px 0px 0px;
 }
 
 .purchase-text {
-  width: 23%;
+  width: 255px;
   display: inline-block;
   position: relative;
   text-align: center;
-  background-color: green;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(111, 113, 115);
+  font-size: 9px;
+  margin: 10px 0px 0px 0px;
+  line-height: 2;
 }
 
 .activate-text {
-  width: 23%;
+  width: 255px;
   display: inline-block;
   position: relative;
   text-align: center;
-  background-color: orange;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(111, 113, 115);
+  font-size: 9px;
+  margin: 10px 0px 0px 0px;
+  line-height: 2;
 }
 
 .ride-text {
-  width: 23%;
+  width: 255px;
   display: inline-block;
   position: relative;
   text-align: center;
-  background-color: green;
+  font-family: 'Roboto Slab', serif;
+  color: rgb(111, 113, 115);
+  font-size: 9px;
+  margin: 10px 0px 0px 0px;
+  line-height: 2;
 }
 
 .right-bumper {
   display: inline-block;
   position: relative;
-  width: 14%;
+  width: 115px;
   background-color: blue;
+}
+
+.left-bumper-2 {
+  display: inline-block;
+  position: relative;
+  width: 115px;
+  background-color: blue;
+  margin: 10px 0px 0px 0px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.purchase-screen {
+  width: 200px;
+  height: auto;
+  display: inline-block;
+  position: relative;
+  margin: 10px 0px 0px 30px;
+}
+
+.activate-screen {
+  width: 200px;
+  display: inline-block;
+  position: relative;
+  margin: 10px 55px 0px 55px;
+}
+
+.ride-screen {
+  width: 200px;
+  display: inline-block;
+  position: relative;
+  margin: 10px 0px 0px 0px;
+}
+
+.right-bumper-2 {
+  display: inline-block;
+  position: relative;
+  width: 115px;
+  background-color: blue;
+  margin: 10px 0px 0px 0px;
+}
+
+#wrapper3 {
+  width: 1020px;
+  height: 300px;
+  margin: 0px 130px 0px 130px;
+  background-color: rgb(222, 222, 222);
+}
+
+.bottom-gray-area-header {
+  display: inline-block;
+  margin: 20px 0px 0px 0px;
+  height: 70px;
+  width: 1020px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  vertical-align: middle;
+  color: rgb(58, 58, 58);
+}
+
+.fast-set-up {
+  width: 335px;
+  display: inline-block;
+  position: relative;
+  text-align: right;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+  font-size: 12px;
+}
+
+.modernized-fare-collection {
+  width: 325px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+  font-size: 12px;
+}
+
+.detailed-analytics {
+  width: 310px;
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+  font-size: 12px;
+  margin: 0px 0px 0px 40px;
+}
+
+.lowerbluebutton {
+  position: relative;
+  top: 10px;
+  height: 42px;
+  width: 155px;
+  background-color: rgb(48, 154, 209);
+  margin: 0 auto;
+  border-radius: 2px;
+  text-align: center;
+  margin: 0px 0px 0px 428px;
+}
+
+#wrapper4 {
+  width: 1020px;
+  height: 65px;
+  margin: 65px 0px 0px 0px;
+  background-color: white;
+}
+
+.copyright {
+  width: 300px;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+  font-weight: normal;
+  color: rgb(111, 113, 115);
+  text-align: right;
+}
+
+.facebook-logo {
+  width: 204px;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  color: rgb(48, 152, 207);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+  font-weight: normal;
+  text-align: right;
+}
+
+.twitter-logo {
+  width: 160px;
+  display: inline-block;
+  position: relative;
+  top: 20px;
+  color: rgb(48, 152, 207);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+  font-weight: normal;
+}
+
+.bottom-nav {
+  width: 260px;
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  color: rgb(48, 152, 207);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
+  font-weight: normal;
+}
+
+.bottom-nav div li {
+  display: inline-block;
+  margin: 0px 0px 0px 5px;
+  list-style-type: none;
+  font-size: 8px;
+  font-family: 'Montserrat', sans-serif;
 }
